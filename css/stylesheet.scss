@@ -1,0 +1,12 @@
+@import "partials/normalize";
+
+//import my google font
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background: pink;
+}
