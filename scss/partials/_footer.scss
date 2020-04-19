@@ -1,6 +1,11 @@
 footer {
     text-align: center;
-    a {
+    padding: 15px 0;
+    background: #eee;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .footer-link {
         text-decoration: none;
     }
 }
