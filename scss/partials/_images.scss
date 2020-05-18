@@ -1,5 +1,13 @@
-// body {
-//     background: url('../img/yaa-standing-yellow-suit.jpg');
-//     background-repeat: no-repeat;
-//     background-color: #FAFAFA;
-// }
+.main__photo {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.portfolio-item.image {
+    height: 150px;
+}
