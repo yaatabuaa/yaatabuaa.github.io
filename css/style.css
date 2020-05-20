@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -343,6 +344,10 @@ html {
 }
 
 body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
