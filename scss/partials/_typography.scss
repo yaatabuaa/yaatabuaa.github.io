@@ -6,8 +6,22 @@ body {
     font-family: $main-font;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6, blockquote {
     font-family: $font-stack;
+    // text-align: center;
+}
+
+a {
+    color: #ff5db1;
+    font-weight: 700;
+}
+
+.main__quote {
+    line-height: 40px;
 }
 
 .main__quote, .fab  {
