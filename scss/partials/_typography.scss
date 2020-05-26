@@ -6,12 +6,15 @@ body {
     font-family: $main-font;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, blockquote {
     font-family: $font-stack;
 }
 
-.fab {
+.main__quote, .fab  {
     font-size: 36px;
+}
+
+.fab {
     color: #000;
     margin-right: 20px;
 }
