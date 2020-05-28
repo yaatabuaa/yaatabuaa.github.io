@@ -339,40 +339,6 @@ template {
   display: none;
 }
 
-html {
-  line-height: 24px;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6, blockquote {
-  font-family: "Playfair Display", serif;
-}
-
-a {
-  color: #ff5db1;
-  font-weight: 700;
-}
-
-.main__quote {
-  line-height: 40px;
-}
-
-.main__quote, .fab {
-  font-size: 36px;
-}
-
-.fab {
-  color: #000;
-  margin-right: 20px;
-}
-
 footer {
   text-align: center;
   padding: 15px 0;
@@ -391,22 +357,65 @@ footer .footer-link {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  margin: 22px 0;
 }
 
-.portfolio-item.image {
+.portfolio-item-image {
   height: 150px;
 }
 
-.blockquote__wrapper {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff5db1+29,ff5db1+29,ef017c+78&1+0,0.46+85 */
-  background: -moz-linear-gradient(left, #ff5db1 0%, rgba(255, 93, 177, 0.82) 29%, rgba(239, 1, 124, 0.51) 78%, rgba(239, 1, 124, 0.46) 85%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #ff5db1 0%, rgba(255, 93, 177, 0.82) 29%, rgba(239, 1, 124, 0.51) 78%, rgba(239, 1, 124, 0.46) 85%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #ff5db1 0%, rgba(255, 93, 177, 0.82) 29%, rgba(239, 1, 124, 0.51) 78%, rgba(239, 1, 124, 0.46) 85%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ff5db1", endColorstr="#75ef017c",GradientType=1 );
-  /* IE6-9 */
+html {
+  line-height: 24px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  padding: 0 10px;
+  position: sticky;
+  top: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .homepage__content--text {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+  font-family: "Playfair Display", serif;
+}
+
+.headline__subtitle {
+  margin-top: 0;
+}
+
+a, .fab, .homepage__content--about {
+  color: #000;
+}
+
+a {
+  font-weight: 700;
+}
+
+.fab {
+  margin-right: 20px;
+  font-size: 36px;
+}
+
+.homepage__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 15px;
+}
+
+.homepage__content--about {
+  background: #a29d9d;
+}
+
+.navigation a {
+  display: block;
 }
 
 .navigation__desktop {
@@ -415,6 +424,12 @@ footer .footer-link {
 
 .display-nav {
   display: block;
+}
+
+.homepage__navigation--button {
+  position: absolute;
+  top: 8px;
+  right: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

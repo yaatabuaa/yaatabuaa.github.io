@@ -1,7 +1,17 @@
+.navigation a {
+    display: block;
+}
+
 .navigation__desktop {
     display: none;
 }
 
 .display-nav {
     display: block;
+}
+
+.homepage__navigation--button {
+    position: absolute;
+    top: 8px;
+    right: 15px;
 }
