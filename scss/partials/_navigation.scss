@@ -1,5 +1,13 @@
+nav {
+    position: absolute;
+    top: 44px;
+    right: 35px;
+    background: white;
+}
+
 .navigation a {
     display: block;
+    padding: 12px;
 }
 
 .navigation__desktop {
@@ -12,6 +20,9 @@
 
 .homepage__navigation--button {
     position: absolute;
-    top: 8px;
-    right: 15px;
+    top: 14px;
+    right: 28px;
+    background: transparent;
+    border: none;
+    font-size: 25px;
 }
