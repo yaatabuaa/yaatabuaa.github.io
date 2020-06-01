@@ -362,6 +362,7 @@ footer .footer-link {
 
 .portfolio-item-image {
   height: 150px;
+  margin: 0 auto;
 }
 
 html {
@@ -405,14 +406,21 @@ a {
 }
 
 .homepage__content {
+  padding: 40px 15px;
+}
+
+.homepage__content, .portfolio-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 15px;
 }
 
 .homepage__content--about {
   background: #a29d9d;
+}
+
+.portfolio-item.link {
+  text-transform: uppercase;
 }
 
 nav {
