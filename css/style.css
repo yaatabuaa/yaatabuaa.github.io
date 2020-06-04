@@ -366,7 +366,7 @@ footer .footer-link {
 }
 
 html {
-  line-height: 24px;
+  line-height: 26px;
   scroll-behavior: smooth;
 }
 
@@ -423,6 +423,22 @@ a {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 675px) {
+  .homepage__content {
+    padding: 5% 15%;
+  }
+}
+@media screen and (min-width: 940px) {
+  .homepage__content--text {
+    font-size: 18px;
+  }
+
+  .section__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+  }
+}
 nav {
   position: absolute;
   top: 45px;
